@@ -22,7 +22,7 @@ int main() {
         int b2 = base64_chars[c2] - 'A';
         int b3 = base64_chars[c3] - 'A';
         int b4 = base64_chars[c4] - 'A';
-        // dördüncü Base64 karakteri '=' ise kodu çözülmüş baytı 0 yap
+        // dördüncü Base64 karakteri '=' ise kodu çözülmüş baytı 0  yap
         if (c4 == '=') {
             b4 = 0;
         }
